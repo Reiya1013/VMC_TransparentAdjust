@@ -1,4 +1,4 @@
-# VMC_TranspearentAdjust
+# VMC_TransparentAdjust
 バーチャルモーションキャプチャーのアバターでTranspearentを用いて半透明表示をしていた場合  
 透過ウインドウで裏面が見えてしまうのを修正するMODとなります。  
 
