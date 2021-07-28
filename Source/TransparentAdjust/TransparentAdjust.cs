@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VMCMod;
 
-namespace TranspearentAdjust
+namespace TransparentAdjust
 {
     [VMCPlugin(
     Name: "TransparentAdjust",
@@ -13,7 +13,7 @@ namespace TranspearentAdjust
     AuthorURL: "https://twitter.com/Reiya__",
     PluginURL: "https://github.com/Reiya1013/VMC_TransparentAdjust")]
 
-    public class TranspearentFix : MonoBehaviour
+    public class TransparentAdjust : MonoBehaviour
     {
 
         /// <summary>
