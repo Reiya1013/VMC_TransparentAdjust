@@ -7,8 +7,8 @@
     <ProjectGuid>{9B06EBBF-8FAF-4DA6-A583-8A52D8351ABB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TranspearentAdjust</RootNamespace>
-    <AssemblyName>TranspearentAdjust</AssemblyName>
+    <RootNamespace>TransparentAdjust</RootNamespace>
+    <AssemblyName>TransparentAdjust</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -59,7 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TranspearentAdjust.cs" />
+    <Compile Include="TransparentAdjust.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

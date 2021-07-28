@@ -6,12 +6,12 @@ using VMCMod;
 namespace TranspearentAdjust
 {
     [VMCPlugin(
-    Name: "TranspearentAdjust",
+    Name: "TransparentAdjust",
     Version: "0.0.1",
     Author: "Reiya",
-    Description: "Transpearentを使用時透過ｳｨﾝﾄﾞｳを使用していると裏が透けるのを防止する",
+    Description: "Transparentを使用時透過ｳｨﾝﾄﾞｳを使用していると裏が透けるのを防止する",
     AuthorURL: "https://twitter.com/Reiya__",
-    PluginURL: "https://github.com/Reiya1013/VMC_TranspearentAdjust")]
+    PluginURL: "https://github.com/Reiya1013/VMC_TransparentAdjust")]
 
     public class TranspearentFix : MonoBehaviour
     {
@@ -41,7 +41,7 @@ namespace TranspearentAdjust
         private void AssetBundleLoad()
         {
             //AlphaOnMaskMaterialロード
-            AssetBundle assetBundle = AssetBundle.LoadFromStream(Assembly.GetExecutingAssembly().GetManifestResourceStream("TranspearentAdjust.alphaon"));
+            AssetBundle assetBundle = AssetBundle.LoadFromStream(Assembly.GetExecutingAssembly().GetManifestResourceStream("TransparentAdjust.alphaon"));
             var Assets = assetBundle.LoadAllAssets();
             assetBundle.Unload(false);
             foreach (var asset in Assets)
